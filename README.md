@@ -1,6 +1,6 @@
-# 🛒 CarritoApp — Proyecto de Práctica (CEMESA 2024)
+# 🛒 CarritoApp — Proyecto
 
-Este proyecto es una aplicación web de práctica desarrollada en 2024 durante mi experiencia en **CEMESA**, con el objetivo de reforzar conocimientos en **desarrollo web fullstack** utilizando **React**, **Context API** y **React Router**.
+Este proyecto es una aplicación web de práctica desarrollada en 2025, con el objetivo de reforzar conocimientos en **desarrollo web fullstack** utilizando **React**, **Context API** y **React Router**.
 
 La aplicación simula un **carrito de compras funcional**, donde el usuario puede visualizar productos, agregarlos o eliminarlos del carrito, y navegar entre las páginas principales.
 
