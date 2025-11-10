@@ -1,16 +1,47 @@
-# React + Vite
+# 🛒 CarritoApp — Proyecto de Práctica (CEMESA 2024)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web de práctica desarrollada en 2024 durante mi experiencia en **CEMESA**, con el objetivo de reforzar conocimientos en **desarrollo web fullstack** utilizando **React**, **Context API** y **React Router**.
 
-Currently, two official plugins are available:
+La aplicación simula un **carrito de compras funcional**, donde el usuario puede visualizar productos, agregarlos o eliminarlos del carrito, y navegar entre las páginas principales.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Características principales
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- 🧾 Visualización de productos disponibles.
+- 🛍️ Agregar y eliminar productos del carrito.
+- 💰 Cálculo dinámico del total de compras.
+- 🔄 Persistencia temporal del estado con Context API.
+- 🧭 Navegación entre páginas con React Router.
+- ⚙️ Arquitectura modular con componentes reutilizables.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 Tecnologías utilizadas
+
+| Categoría | Tecnologías |
+|------------|-------------|
+| **Frontend** | React, React Router DOM, Context API |
+| **Librerías** | Bootstrap / CSS Modules (según implementación) |
+| **Herramientas** | Vite / Node.js / npm |
+
+---
+
+## 📁 Estructura del proyecto
+
+CarritoApp/
+│
+├── src/
+│ ├── components/
+│ │ └── NavBar.jsx
+│ ├── context/
+│ │ ├── ProductosProvider.jsx
+│ │ └── CarritoProvider.jsx
+│ ├── pages/
+│ │ ├── CompraPage.jsx
+│ │ └── CarritoPage.jsx
+│ ├── App.jsx
+│ └── main.jsx
+│
+└── package.json
+
